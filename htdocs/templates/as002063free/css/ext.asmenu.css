@@ -1,0 +1,133 @@
+
+/**************************************************************************************/
+/*
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: GNU/GPL
+/*
+/**************************************************************************************/
+
+#as-menu 
+{
+    background-color: transparent;
+	background-image: none;
+	min-height: 58px;
+	margin-left: 15px;
+}
+
+#as-menu ul.as-menu > li a,
+#as-menu ul.as-menu > li > span
+{
+	margin: 0px;
+	padding: 0px 10px;
+	display: block;
+	font-weight: normal;
+	line-height: 20px;
+	letter-spacing: 1px;
+	color: #ffffff;	
+}
+
+#as-menu ul.as-menu > li > span.separator
+{
+	font-size: 14px;	
+}
+
+#as-menu ul.as-menu > li a:hover
+{
+	background: none !important;	
+}
+
+#as-menu ul.as-menu > li,
+#as-menu ul.as-menu > li:hover
+{
+	width: auto;
+	padding: 19px 30px;
+	background: none;
+	transition: background-color 0.3s ease 0.1s;
+	position: relative;
+}
+
+#as-menu ul.as-menu > li.lastItem
+{
+	border-right: none !important;
+}
+
+#as-menu ul.as-menu > li:first-child
+{
+}
+
+#as-menu ul.as-menu > li.deeper > a:after
+{
+	top: -2px;	
+}
+
+#as-menu ul.as-menu > li.active > a,
+#as-menu ul.as-menu > li.current > a,
+#as-menu ul.as-menu > li.asHover > a,
+#as-menu ul.as-menu > li:hover > a,
+#as-menu ul.as-menu > li > a:hover,
+#as-menu ul.as-menu > li > span:hover
+{
+}
+
+#as-menu ul.as-menu > li > a
+{
+	color: #FFF !important;
+	display: block;
+}
+
+#as-menu ul.as-menu > li.active,
+#as-menu ul.as-menu > li.current,
+#as-menu ul.as-menu > li:hover
+{
+	background-color: #b80b08;
+	transition: background-color 0.3s ease 0.1s;
+}
+
+#as-menu ul.as-menu > li.active a,
+#as-menu ul.as-menu > li.current a,
+#as-menu ul.as-menu > li:hover a
+{
+	color: #fff !important;
+}
+
+#as-menu ul.as-menu li:hover ul,
+#as-menu ul.as-menu li.asHover ul
+{
+	left: 0;
+	top: 60px;
+	z-index: 100;
+	position: absolute;
+}
+
+#as-menu ul.as-menu ul
+{
+	background-color: #505050;	
+	background-image: -moz-linear-gradient(top, #505050, #222);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#505050), to(#222));
+	background-image: -webkit-linear-gradient(top, #505050, #222);
+	background-image: -o-linear-gradient(top, #505050, #222);
+	background-image: linear-gradient(to bottom, #505050, #222);
+	border-radius: 3px;	
+}
+
+#as-menu ul.as-menu ul li a,
+#as-menu ul.as-menu ul li span
+{
+	margin: 0px;
+}
+
+#as-menu ul.as-menu ul li a:hover,
+#as-menu ul.as-menu ul li span:hover,
+#as-menu ul.as-menu ul li.active > a,
+#as-menu ul.as-menu ul li.asHover > a,
+#as-menu ul.as-menu ul li.active > span,
+#as-menu ul.as-menu ul li.asHover > span
+{
+	color: #E70F0A !important;
+}
+
+#as-menu ul.as-menu ul ul
+{
+	left: 193px !important;
+}

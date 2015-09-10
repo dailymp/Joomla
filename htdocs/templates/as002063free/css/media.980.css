@@ -1,0 +1,157 @@
+/***************************************************************************************/
+/*
+/*		Author: AS Designing
+/*		Author URI: http://www.asdesigning.com
+/*		Theme URI: http://www.astemplates.com
+/*		
+/*		Note: Design for Landscape tablets
+/*
+/***************************************************************************************/
+
+@media (max-width: 980px)
+{
+	
+	#header-row .mod-search
+	{
+		padding-left: 0;
+	}
+	
+	#header-row .btn-search
+	{
+		left: 10px;
+	}
+	
+	#header-row .mod-search_searchword
+	{
+		width: 220px;
+	}
+	
+	#logo span.slogan
+	{
+		display: block;
+		left: 59px;
+		top: -10px;
+		width: auto;
+	}
+		
+	#header-row .moduletable.social.span4
+	{
+		margin-left: 0px;
+		width: auto;
+	}
+	
+	#as-menu ul.as-menu > li, 
+	#as-menu ul.as-menu > li:hover
+	{
+		padding: 4px 13px !important;	
+	}
+	
+	#as-menu ul.as-menu > li > a, 
+	#as-menu ul.as-menu > li > span	
+	{
+		font-size: 11px !important;	
+	}
+	
+	.nspArt img.nspImage
+	{
+		max-width: 70% !important;	
+	}
+	
+	.thumbnails
+	{
+		margin-left: -12px;
+	}
+	
+	.thumbnails > li
+	{
+		margin-left: 12px;
+	}
+	
+	.page-category__team .item_introtext
+	{
+		overflow: visible;
+	}
+
+	#slider-row .moduletable.slider
+	{
+		box-shadow: none !important;
+	}
+	
+	.camera_wrap .slide_title
+	{
+		font-size: 28px !important;
+	}
+	
+	.camera_caption a.readmore
+	{
+		padding: 19px 27px 16px 20px;
+		font-size: 20px;
+	}
+	
+	.camera_caption a.readmore .arrow
+	{
+		right: 12px;
+		top: 27px;
+	}
+
+	#featured-row .mod-newsflash h2, 
+	#featured-row .mod-newsflash h3
+	{
+		width: 100%;	
+	}
+	
+	#featured-row .mod-newsflash p 
+	{
+    	float: none;
+    	overflow: hidden;
+	}
+		
+	.shadow span
+	{
+		left: 2%;
+		width: 96%;
+	}
+	
+	.mod-newsflash-adv__links .item_content h2
+	{
+		line-height: 30px;
+		padding-top: 14px;
+		padding-bottom: 14px;
+	}
+
+	aside .mod-search input.inputbox 
+	{
+	    width: 180px;
+	}
+
+	aside .mod-search button.btn.btn-search 
+	{
+		margin-top: 15px;
+		padding: 5px 10px 4px;
+	}	
+	
+	#back-top
+	{
+		display: none !important;
+	}
+	
+	.page-blog .items-row.cols-3 .item_img.img-intro
+	{
+		width: 95.5%	
+	}
+	
+	.random-image img,
+	.footer-row-1 .span3 .item_img,
+	.footer-row-1 .span4 .item_img
+	{
+		width: 94%;	
+	}
+	
+	.footer-row-1 .span3 img,
+	.footer-row-1 .span4 img	
+	{
+		width: 100%;			
+	}
+
+	
+}
